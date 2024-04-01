@@ -45,7 +45,7 @@ async def search(_ , query):
             id=str(i),
             title=str(content),
             input_message_content=InputTextMessageContent(f"""
-                                                          Movie: {str(movie[i]['title'])} , {str(movie[i]['year'])} 
+                                                          Movie: {str(movie[i]['title'])} ({str(movie[i]['year'])}) 
                                                           {ia.get_imdbURL(content)}
                                                           """),
         )

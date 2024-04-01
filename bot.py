@@ -2,9 +2,12 @@ from pyrogram import Client , filters
 import imdb
 from pyrogram.types import Message, ReplyKeyboardMarkup , ReplyKeyboardRemove  ,InputTextMessageContent,InlineKeyboardMarkup , InlineKeyboardButton , InlineQuery , CallbackQuery, InlineQueryResultArticle, InlineQueryResult
 
-plugins = dict(root = 'plugins')
+
+Proxy = { "hostname": "0.0.0.0",
+"port": 10000}
 
 app = Client( "test_bot",
+             proxy = Proxy
              api_id = 29115149 ,
              api_hash = "8fed6671ec1ccb880d22d045761f9e25" ,
              bot_token = "6932883798:AAGpel6pNCE8Kug38MIV0o7v4kTCmYlBSwc")

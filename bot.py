@@ -3,7 +3,8 @@ import imdb
 from pyrogram.types import Message, ReplyKeyboardMarkup , ReplyKeyboardRemove  ,InputTextMessageContent,InlineKeyboardMarkup , InlineKeyboardButton , InlineQuery , CallbackQuery, InlineQueryResultArticle, InlineQueryResult
 
 
-Proxy = { "hostname": "0.0.0.0",
+Proxy = { "scheme": "socks5",
+  "hostname": "0.0.0.0",
 "port": 10000}
 
 app = Client( "test_bot",

@@ -8,8 +8,8 @@ from pyrogram.types import Message, ReplyKeyboardMarkup , ReplyKeyboardRemove  ,
 
 app = Client( "test_bot",
              # proxy = Proxy,
-             api_id = 29115149 ,
-             api_hash = "8fed6671ec1ccb880d22d045761f9e25" ,
+             api_id =  ,
+             api_hash = "" ,
              bot_token = "6932883798:AAGpel6pNCE8Kug38MIV0o7v4kTCmYlBSwc")
 
 
